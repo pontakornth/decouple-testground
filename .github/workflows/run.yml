@@ -25,4 +25,4 @@ jobs:
           pipenv install
       - name: Run test
         run: |
-          python main.py
+          pipenv run python main.py
