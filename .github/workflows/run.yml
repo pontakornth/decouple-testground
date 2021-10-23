@@ -1,8 +1,7 @@
 name: Run with environment
 on:
   push:
-    branches: [ main ]
-name: Test decouple
+    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
