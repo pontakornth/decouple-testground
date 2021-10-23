@@ -1,3 +1,7 @@
+name: Run with environment
+on:
+  push:
+    branches: [ main ]
 name: Test decouple
 jobs:
   build:
